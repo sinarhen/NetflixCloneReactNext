@@ -7,6 +7,8 @@ import MovieList from '@/components/MovieLIst';
 import useMovieList from '@/hooks/useMovieList';
 import {useCallback} from 'react';
 import useFavorites from '@/hooks/useFavorites';
+import InfoModal from '@/components/InfoModal';
+import useInfoModal from '@/hooks/useInfoModal';
 
 export async function getServerSideProps(context:NextPageContext){
     const session = await getSession(context);
@@ -27,9 +29,11 @@ export async function getServerSideProps(context:NextPageContext){
 export default function Home() {
   const {data:movies = []} = useMovieList();
   const {data:favorites = []} = useFavorites();
-  console.log(favorites)
+  const { isOpen, closeModal } = useInfoModal();
+
   return (
     <>
+      <InfoModal visible={isOpen} onClose={()=>{closeModal}}/>
       <Navbar/>
       <Billboard/>
       <div className='pb-40'>
