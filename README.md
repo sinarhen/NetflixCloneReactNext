@@ -1,3 +1,32 @@
+# Netflix Clone
+This project built with Next.js, Prisma, MongoDB, tailwind
+  
+URL: [https://new-calories.vercel.app](https://netflix-clone-react-next.vercel.app/)  
+
+## Website Review
+
+### Landing page
+The landing page contains these unique sections:
+- **Navbar**
+- **Header random movie**
+- **Trending now moviews section**
+- **Favorite Movies section(If there are)**
+**Images:**
+![landing-1](https://github.com/sinarhen/NetflixCloneReactNext/assets/105736826/7e8d01ed-35aa-4e52-84e1-fe4ffa49225c)
+![landing-2](https://github.com/sinarhen/NetflixCloneReactNext/assets/105736826/040b4410-b86d-4427-8902-6e7c55d7ed8e)
+
+#### Movie card animation 
+![movie-card](https://github.com/sinarhen/NetflixCloneReactNext/assets/105736826/30e80b5e-6c46-4ffa-8a36-e87a54ca2c1a)
+
+### Authentication Page
+- Route: *"/auth"*
+- Provides two variants of the form (login and register).
+- Users can change the form by clicking on a button below the header or manually by changing search parameters with `?variant=<"login" or "register">`.
+- Two available providers for sign in: github and google
+
+![image](https://github.com/sinarhen/NetflixCloneReactNext/assets/105736826/aaee88c9-d98f-4772-a28f-c327422d0eb5)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
