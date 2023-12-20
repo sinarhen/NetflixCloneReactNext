@@ -1,7 +1,7 @@
 # Netflix Clone
 This project built with Next.js, Prisma, MongoDB, tailwind
   
-URL: [https://new-calories.vercel.app](https://netflix-clone-react-next.vercel.app/)  
+URL: [Click here](https://netflix-clone-react-next.vercel.app/)  
 
 ## Website Review
 
